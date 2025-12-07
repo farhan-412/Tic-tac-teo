@@ -35,6 +35,9 @@ body{
     box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
     background: #f2f3ae;
 }
+.box:hover{
+    background-color: azure;
+}
 #btn{
     padding: .75rem;
     font-size: 1.25rem;
@@ -42,6 +45,12 @@ body{
     background: #191913;
     color: #ffffff;
     border: none;
+}
+#btn:hover{
+    background-color: #691400;
+}
+.new-btn:hover{
+    background-color: #691400;
 }
 .new-btn{
      padding: .75rem;
